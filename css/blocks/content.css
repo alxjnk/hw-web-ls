@@ -1,0 +1,45 @@
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: "Alegreya Sans";
+  color: white;
+  height: 100vh;
+  width: 100%; }
+
+.content_action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  height: 100%;
+  width: 50%; }
+
+.content_action_header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase; }
+
+.content_action_subheader {
+  font-size: 18px;
+  font-weight: 400; }
+
+.content_action_button {
+  width: 156px;
+  height: 58px;
+  background-color: #ffffff;
+  border-radius: 35px; }
